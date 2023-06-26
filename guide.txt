@@ -1,0 +1,13 @@
+ng create my-project 
+
+ng serve 
+
+npm i bootstrap 
+npm i jquery
+
+./node_modules/bootstrap/dist/css/bootstrap.min.css
+./node_modules/bootstrap/dist/js/bootstrap.js
+
+
+create a component
+---- ng generate component components/todos
