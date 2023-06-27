@@ -1,6 +1,27 @@
-<h1>Hello' {{title}}</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis non quaerat totam tempore corporis, tempora laudantium! Atque quisquam dolore odio vitae quidem voluptatibus perspiciatis ratione, voluptatem sit nesciunt praesentium, pariatur aspernatur eum! Minima. {{title}} </p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Todo App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<p>Hello world</p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+     
+    </ul>
+   
+  </div>
+</nav>
 
-<button class="btn btn-primary mx-5">click me</button>
+<!-- <app-todos/> -->
+
+
+<router-outlet></router-outlet>

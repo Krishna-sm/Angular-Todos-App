@@ -11,3 +11,8 @@ npm i jquery
 
 create a component
 ---- ng generate component components/todos
+
+---- nh g c components/addTodo
+
+
+// path can not start with slash
